@@ -1,48 +1,7 @@
 <div align="center">
 
-<!-- Header Banner (self-contained SVG - always loads) -->
-<svg width="100%" viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="180" fill="#0d1117" rx="12"/>
-  <!-- Grid lines -->
-  <g stroke="#00ff9d" stroke-width="0.3" opacity="0.06">
-    <line x1="0" y1="30" x2="680" y2="30"/><line x1="0" y1="60" x2="680" y2="60"/>
-    <line x1="0" y1="90" x2="680" y2="90"/><line x1="0" y1="120" x2="680" y2="120"/>
-    <line x1="0" y1="150" x2="680" y2="150"/>
-    <line x1="80" y1="0" x2="80" y2="180"/><line x1="160" y1="0" x2="160" y2="180"/>
-    <line x1="240" y1="0" x2="240" y2="180"/><line x1="320" y1="0" x2="320" y2="180"/>
-    <line x1="400" y1="0" x2="400" y2="180"/><line x1="480" y1="0" x2="480" y2="180"/>
-    <line x1="560" y1="0" x2="560" y2="180"/><line x1="640" y1="0" x2="640" y2="180"/>
-  </g>
-  <!-- Corner brackets -->
-  <path d="M20 50 L20 20 L50 20" fill="none" stroke="#00ff9d" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M630 20 L660 20 L660 50" fill="none" stroke="#00ff9d" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M20 130 L20 160 L50 160" fill="none" stroke="#00ff9d" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M630 160 L660 160 L660 130" fill="none" stroke="#00ff9d" stroke-width="1.5" stroke-linecap="round"/>
-  <!-- Blinking cursor -->
-  <circle cx="36" cy="90" r="3" fill="#00ff9d" opacity="0.7">
-    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Accent lines -->
-  <line x1="48" y1="90" x2="120" y2="90" stroke="#00ff9d" stroke-width="0.8" opacity="0.4"/>
-  <line x1="560" y1="90" x2="632" y2="90" stroke="#00ff9d" stroke-width="0.8" opacity="0.4"/>
-  <!-- Name -->
-  <text x="340" y="78" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="700" fill="#00ff9d" letter-spacing="6">HARSH RAJ</text>
-  <line x1="200" y1="90" x2="480" y2="90" stroke="#00ff9d" stroke-width="0.8" opacity="0.35"/>
-  <!-- Subtitle -->
-  <text x="340" y="116" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#8b949e" letter-spacing="2">Backend Engineer · AI Builder · Startup Founder</text>
-  <!-- Tag chips -->
-  <rect x="158" y="134" width="68" height="22" rx="4" fill="none" stroke="#00ff9d" stroke-width="0.8" opacity="0.5"/>
-  <text x="192" y="149" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff9d" opacity="0.8">Python</text>
-  <rect x="236" y="134" width="68" height="22" rx="4" fill="none" stroke="#00ff9d" stroke-width="0.8" opacity="0.5"/>
-  <text x="270" y="149" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff9d" opacity="0.8">LLMs</text>
-  <rect x="314" y="134" width="68" height="22" rx="4" fill="none" stroke="#00ff9d" stroke-width="0.8" opacity="0.5"/>
-  <text x="348" y="149" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff9d" opacity="0.8">FastAPI</text>
-  <rect x="392" y="134" width="68" height="22" rx="4" fill="none" stroke="#00ff9d" stroke-width="0.8" opacity="0.5"/>
-  <text x="426" y="149" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff9d" opacity="0.8">AI/ML</text>
-  <rect x="470" y="134" width="68" height="22" rx="4" fill="none" stroke="#00ff9d" stroke-width="0.8" opacity="0.5"/>
-  <text x="504" y="149" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ff9d" opacity="0.8">Startups</text>
-</svg>
-
+<!-- Header Banner -->
+<img width="100%" src="banner.svg" alt="Harsh Raj Banner"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -69,7 +28,7 @@
 ---
 
 <!-- About Me -->
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ### `> whoami`
 
@@ -224,10 +183,4 @@ A full-stack **Digital Real Estate Transaction Management System** — streamlin
 
 </div>
 
-<!-- Footer -->
-<svg width="100%" viewBox="0 0 680 60" xmlns="http://www.w3.org/2000/svg">
-  <rect width="680" height="60" fill="#0d1117" rx="8"/>
-  <line x1="40" y1="30" x2="280" y2="30" stroke="#00ff9d" stroke-width="0.6" opacity="0.3"/>
-  <text x="340" y="35" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#00ff9d" opacity="0.5">// end of file</text>
-  <line x1="400" y1="30" x2="640" y2="30" stroke="#00ff9d" stroke-width="0.6" opacity="0.3"/>
-</svg>
+<img width="100%" src="footer.svg" alt="footer"/>
